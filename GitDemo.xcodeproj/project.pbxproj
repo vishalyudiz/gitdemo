@@ -54,14 +54,30 @@
 		0329AF421EBC41A100FBD24D /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0329AF561EBC461100FBD24D /* Classes */,
+				0329AF551EBC45F900FBD24D /* Storyboards */,
 				0329AF431EBC41A100FBD24D /* AppDelegate.swift */,
-				0329AF451EBC41A100FBD24D /* ViewController.swift */,
-				0329AF471EBC41A100FBD24D /* Main.storyboard */,
 				0329AF4A1EBC41A100FBD24D /* Assets.xcassets */,
-				0329AF4C1EBC41A100FBD24D /* LaunchScreen.storyboard */,
 				0329AF4F1EBC41A100FBD24D /* Info.plist */,
 			);
 			path = GitDemo;
+			sourceTree = "<group>";
+		};
+		0329AF551EBC45F900FBD24D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0329AF4C1EBC41A100FBD24D /* LaunchScreen.storyboard */,
+				0329AF471EBC41A100FBD24D /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		0329AF561EBC461100FBD24D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0329AF451EBC41A100FBD24D /* ViewController.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
